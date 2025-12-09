@@ -5,3 +5,10 @@
 </p>
 <h2 align = "center"> MAE/ECE 148 Final Project Fall 26 </h2>
 <h3 align = "center"> Team 13 </h2>
+
+<p align = "center">
+<img width="592" height="486" alt="image" src="https://github.com/user-attachments/assets/ea4d738b-65de-4c2c-98a2-80c0440bbb76" />
+</p>
+
+# Table of Contents
+
