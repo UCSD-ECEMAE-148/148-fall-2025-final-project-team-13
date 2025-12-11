@@ -11,4 +11,56 @@
 </p>
 
 # Table of Contents
+1. [Team Members](#Team-Members)
+2. [Abstract](#Abstract)
+3. [What We Promised](#What-We-Promised)
+4. [Accomplishments](#Accomplishments)
+5. [Demonstration](#Demonstration)
+6. [Challenges](#Challenges)
+7. [Robot Design](#Robot-Design)
+8. [Circuit Diagram](#Circuit-Diagram)
+9. [References](#References)
+10. [Contacts](#Contacts)
+
+# Team Members
+- Evelyn M. - Computer Engineering
+- Joseph W. - Computer Engineering
+- Aden W. - Mechanical and Aerospace Engineering
+- Omar C. - Extended Studies
+
+# Abstract
+The project's goal is to implement head-tracking gestures as directional movements and throttle control on our vehicle. We utilized the ROS2 framework with open-source head-tracking software to turn numerical head movement data into car movement commands. Our project hopes to create an alternative to joystick steering as as a way to make remote control vehicles more accessible. 
+
+# What We Promised
+**Must Haves**
+- A direct coorelation between head movement data (yaw and pitch) and the cars throttle and streering
+
+**Nice to Have** 
+- Integration of Lidar sensors for emergency stopping near obstacles
+- Integration of our groups hand gesture detection model as alternatives for car movement control
+
+# Accomplishments
+- We successfully used UDP to connect AITrack, Opentrack and our pi to efficiently deliver numerical head movement data.
+- We mapped pitch values to throttle and forward/backward driving direction.
+  - We coorelated a high positive pitch value with the backward direction and full throttle.
+  - We coorelated a mid positive pitch value with the backward direction and low thrrotle.
+  - We coorelated a high negative pitch value with the forward direction and full throttle.
+  - We coorelated a mid negative pitch value with the forward direction and low throttle.
+  - We coorelated any pitch value between --- and -- to be the deadzone and so would give no throttle nore direction
+- We mapped yaw values to steering direction
+  - We coorelated a positive yaw value with the left steering direction.
+  - We coorelated a negative yaw value with the right steering direction.
+# Demonstration
+
+# Challenges
+# Robot Design
+# Circuit Diagram
+<img width="4800" height="2400" alt="Visual Circuit Diagram (3)" src="https://github.com/user-attachments/assets/bb94c57c-3bd9-449d-8f68-8ec0568eca5d" />
+
+# References
+# Contacts
+- Evelyn M. - emaresmoreno@ucsd.edu
+- Joseph W. - 
+- Aden W. - 
+- Omar C. -
 
