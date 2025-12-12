@@ -1,5 +1,5 @@
 
-<h1 align = "center"> Motion to Drive Robot </h1>
+<h1 align = "center"> Head Turning Robot </h1>
 <p align = "center">
 <img width="650" height="300" alt="image" src="https://github.com/user-attachments/assets/fae75be7-b48a-49da-8780-113694382b2e" />
 </p>
@@ -62,6 +62,8 @@ The project's goal is to implement head-tracking gestures as directional movemen
    - We solved this problem by creating a system that mapped ranges of raw yaw degrees to specific servo steering values
 
 # Robot Design
+<img width="1056" height="683" alt="image" src="https://github.com/user-attachments/assets/f1f6df09-762b-4d3b-9098-56158cdfe056" />
+
 # Circuit Diagram
 <img width="4800" height="2400" alt="Visual Circuit Diagram (3)" src="https://github.com/user-attachments/assets/bb94c57c-3bd9-449d-8f68-8ec0568eca5d" />
 
@@ -69,8 +71,9 @@ The project's goal is to implement head-tracking gestures as directional movemen
 # Contacts
 - Evelyn M. - emaresmoreno@ucsd.edu
 - Joseph W. - jwarzybokmckenney@ucsd.edu
-- Aden W. - 
+- Aden W. - Adw010@ucsd.edu
 - Omar C. - omarchoy@gmail.com
+
 
 
 
