@@ -29,7 +29,7 @@
 - Omar C. - Extended Studies
 
 # Abstract
-The project's goal is to implement head-tracking gestures as directional movements and throttle control on our vehicle. We utilized the ROS2 framework with open-source head-tracking software to turn numerical head movement data into car movement commands. Our project hopes to create an alternative to joystick steering as as a way to make remote control vehicles more accessible. 
+The project's goal is to implement head-tracking gestures as directional movements and throttle control on our vehicle. We utilized the ROS2 framework with open-source head-tracking software to turn numerical head movement data into car movement commands. Our project hopes to create a fun interactive game experience.
 
 # What We Promised
 **Must Haves**
@@ -38,21 +38,28 @@ The project's goal is to implement head-tracking gestures as directional movemen
 **Nice to Have** 
 - Integration of Lidar sensors for emergency stopping near obstacles
 - Integration of our groups hand gesture detection model as alternatives for car movement control
+- Real time camera feed through the cars OAKD camera
 
 # Accomplishments
 - We successfully used UDP to connect AITrack, Opentrack and our pi to efficiently deliver numerical head movement data.
 - We mapped pitch values to throttle and forward/backward driving direction.
   - We coorelated a high positive pitch value with the backward direction and full throttle.
-  - We coorelated a mid positive pitch value with the backward direction and low thrrotle.
+  - We coorelated a mid positive pitch value with the backward direction and low throtle.
   - We coorelated a high negative pitch value with the forward direction and full throttle.
   - We coorelated a mid negative pitch value with the forward direction and low throttle.
-  - We coorelated any pitch value between --- and -- to be the deadzone and so would give no throttle nore direction
+  - We coorelated mid pitch values (when the head is centered) to give no throttle nor direction
 - We mapped yaw values to steering direction
-  - We coorelated a positive yaw value with the left steering direction.
-  - We coorelated a negative yaw value with the right steering direction.
+  - We coorelated a high positive yaw value with sharp left turn.
+  - We coorelated a mid positive yaw value with a slight left turn.
+  - We coorelated a high negative yaw value with sharp right turn.
+  - We coorelated a mid negative yaw value with a slight right turn.
+  - We coorelated mid yaw values (when the head is centered) to give no steer
 # Demonstration
 
 # Challenges
+- Our first approach to steering had only two directions hard left and hard right making driving unnatural and incredibly difficult
+   - We solved this problem by creating a system that mapped ranges of raw yaw degrees to specific servo steering values
+
 # Robot Design
 # Circuit Diagram
 <img width="4800" height="2400" alt="Visual Circuit Diagram (3)" src="https://github.com/user-attachments/assets/bb94c57c-3bd9-449d-8f68-8ec0568eca5d" />
@@ -60,7 +67,8 @@ The project's goal is to implement head-tracking gestures as directional movemen
 # References
 # Contacts
 - Evelyn M. - emaresmoreno@ucsd.edu
-- Joseph W. - 
+- Joseph W. - jwarzybokmckenney@ucsd.edu
 - Aden W. - 
-- Omar C. -
+- Omar C. - omarchoy@gmail.com
+
 
