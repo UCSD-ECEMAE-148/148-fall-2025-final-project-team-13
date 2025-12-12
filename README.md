@@ -38,7 +38,6 @@ The project's goal is to implement head-tracking gestures as directional movemen
 **Nice to Have** 
 - Integration of Lidar sensors for emergency stopping near obstacles
 - Integration of our group's hand gesture detection model as an alternative for car movement control
-- Real-time camera feed through the car's OAKD camera
 
 # Accomplishments
 - We successfully used UDP to connect AITrack, Opentrack, and our Pi to efficiently deliver numerical head movement data.
@@ -73,6 +72,7 @@ The project's goal is to implement head-tracking gestures as directional movemen
 - Joseph W. - jwarzybokmckenney@ucsd.edu
 - Aden W. - Adw010@ucsd.edu
 - Omar C. - omarchoy@gmail.com
+
 
 
 
