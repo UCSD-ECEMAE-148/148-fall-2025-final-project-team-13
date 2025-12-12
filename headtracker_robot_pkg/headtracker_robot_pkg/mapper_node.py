@@ -49,7 +49,8 @@ class HeadtrackerMapperNode(Node):
             else:
                 return self.past_yall
 
-    #If statement that are indicating the rage of right turn and left turn
+    #I have no idea why but for some stupid reason the VESC node we were using for steering is not clamped to [-1,1]
+    # it's actually clamped to [-1.5,0.5] so -0.5 results in servo => 0.5
     def steering_deg(self, yaw_deg):
         if(yaw_deg < -20):
           return -1.5
@@ -67,6 +68,7 @@ class HeadtrackerMapperNode(Node):
         scaled = value_deg/max_deg
         return max(-1.0,min(1.0,scaled)) #Clamp to [-1,1]
 
+    #Scale and clamp yaw degree 
     def yaw_to_steering(self, yaw_deg,max_deg):
         yaw_deg = max(-max_deg, min(max_deg, yaw_deg))
         return -(yaw_deg / max_deg) - 0.5
