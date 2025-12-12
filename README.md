@@ -67,11 +67,16 @@ The project's goal is to implement head-tracking gestures as directional movemen
 <img width="4800" height="2400" alt="Visual Circuit Diagram (3)" src="https://github.com/user-attachments/assets/bb94c57c-3bd9-449d-8f68-8ec0568eca5d" />
 
 # References
+- [opentrack](https://github.com/opentrack/opentrack?tab=readme-ov-file) 
+- [opentrack releases](https://github.com/opentrack/opentrack/releases)
+- [AITrack](https://github.com/AIRLegend/aitrack)
+- [AITrack releases](https://github.com/AIRLegend/aitrack/releases)
 # Contacts
 - Evelyn M. - emaresmoreno@ucsd.edu
 - Joseph W. - jwarzybokmckenney@ucsd.edu
 - Aden W. - Adw010@ucsd.edu
 - Omar C. - omarchoy@gmail.com
+
 
 
 
