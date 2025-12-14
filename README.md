@@ -55,8 +55,11 @@ The project's goal is to implement head-tracking gestures as directional movemen
   - We correlated mid yaw values (when the head is centered) to give no steer
 # Demonstration
 Steering Demo on stand:
+
 [![Steering Demo ](steerdemo.jpg)](https://www.youtube.com/shorts/YIIT3bkavgc)
+
 Steering Demo live on track:
+
 [![Full Track Demo ](cardemo.jpg)](https://www.youtube.com/shorts/dXopNuEPBc8 )
 
 # Challenges
@@ -79,6 +82,7 @@ Steering Demo live on track:
 - Joseph W. - jwarzybokmckenney@ucsd.edu
 - Aden W. - Adw010@ucsd.edu
 - Omar C. - omarchoy@gmail.com
+
 
 
 
